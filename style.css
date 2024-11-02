@@ -1,0 +1,90 @@
+body{
+  background-image: url("Screen-Shot-2015-08-25-at-1.54.28-PM.png");
+    background-size:cover ;
+}
+.keyboarde{
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+   width: 900px;
+    padding: 5px 14px 35px 14px;
+    text-align: center;
+    font-family: Bahnschrift;
+    text-shadow: 0PX 0PX 2PX green;
+    box-shadow: 0px 0px 10px rgb(153, 249, 144);
+    border: 1px solid rgb(5, 51, 0); 
+    position: absolute;
+    top: 170px;
+    left: 500px;
+    font-size: 17px;
+    font-weight: 900;
+}
+.row0{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.row2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.row3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.row4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.row5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.clike{
+    padding: 20px;
+    margin: 5px 0px;
+    border:1px solid green;
+    box-shadow: 0px 0px 3px green;
+    color: green;
+    border-radius: 5px;
+    height: 12px;
+}
+.clike:hover{
+ background-color: green;
+ box-shadow: 0px 0px 9px green;
+ box-shadow:inset 0px 0px 9px rgb(0, 0, 0);
+ text-shadow: 0px 0px 2px black;
+ color: black;   
+}
+.row0 .clike{
+    padding:12px 20px;
+}
+.space{
+    width: 35%;
+}
+.SHIFT1{
+    width: 100PX;
+}
+.SHIFT2{
+    width: 120PX;
+}
+.ENTER{
+    width: 100PX;
+}
+.TAP{
+    width: 40px;
+}
+.end2{
+    width: 30px;
+
+}
